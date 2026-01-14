@@ -27,7 +27,7 @@ end_date
     - `txn_type:` Type of transaction (Deposit, Withdrawal, Purchase) `(VARCHAR)`.
     - `txn_amount:` The value of the transaction `(INT)`.
 
-![alt text](image.png)
+<img width="816" height="707" alt="image" src="https://github.com/user-attachments/assets/660dac8b-9fd5-4004-8318-fe5dcaaa30e0" />
 
 ## 🧹 Data Cleansing Performed
 Before performing the analysis, the raw data required type casting to ensure date calculations (like DATEDIFF) would function correctly. The original schema imported date columns as strings.
